@@ -1,0 +1,5 @@
+      /*
+      by AdamByrne for Tic-Tac-Toe
+      */
+
+    body{padding:0;margin:0 auto}canvas{background-color:#ddd;width:200px;border:1px solid #fff;float:left;opacity:.75}canvas.field{height:200px}div.row{width:606px;margin:0 auto}div#container{width:100%}canvas#reset{height:50px;margin-top:30px;margin-left:202px}
