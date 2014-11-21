@@ -1,6 +1,3 @@
-/*
-by AdamByrne for Tic-Tac-Toe
-*/
 function checkWin(e) {
     return checkRows(e) || checkCols(e) || checkDiagonals(e)
 }
