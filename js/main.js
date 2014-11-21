@@ -130,12 +130,10 @@ $(document).ready(function() {
         }
         if (checkWin(turn)) {
             var input = turn + "Won!";
-            $("body").append("<audio autoplay><source src=http://tts-api.com/tts.mp3?q=" + input + " type=audio/mpeg></audio><p>");
-            $(document).scrollTop($(document).height());
+            alert(input);
             won = true
         } else if (checkDraw()) {
-            $("body").append("<audio autoplay><source src=http://tts-api.com/tts.mp3?q=" + "It's%20a%20draw" + " type=audio/mpeg></audio>");
-            $(document).scrollTop($(document).height());
+           alert("It's a draw!");
         }
         if (turn == circleTokenName) turn = crossTokenName;
         else turn = circleTokenName
